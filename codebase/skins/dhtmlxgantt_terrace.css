@@ -650,7 +650,7 @@ div.dhx_modal_cover {
 }
 .gantt_task_content {
   font-size: 12px;
-  color: #fff;
+  color: rgb(0, 0, 0); /* Color del texto */
   width: 100%;
   top: 0;
   cursor: pointer;
@@ -658,10 +658,12 @@ div.dhx_modal_cover {
   white-space: nowrap;
   text-align: center;
 }
+
+
 .gantt_task_progress {
   text-align: center;
   z-index: 0;
-  background: #299cb4;
+  background: #5aa0d3;  /* Color del proceso */
 }
 .gantt_task_progress_wrapper {
   border-radius: inherit;
@@ -670,12 +672,14 @@ div.dhx_modal_cover {
   height: 100%;
   overflow: hidden;
 }
+
+
 .gantt_task_line {
   border-radius: 2px;
   position: absolute;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #3db9d3;
+  background-color: #eff6fb; /* Color de los botones de tareas */
   border: 1px solid #2898b0;
   -webkit-user-select: none;
   -moz-user-select: none;
