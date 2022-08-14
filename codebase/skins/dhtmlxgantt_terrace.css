@@ -98,7 +98,7 @@
 .gantt_btn_set.gantt_save_btn_set {
   background: #3db9d3;
   text-shadow: 0 -1px 0 #248a9f;
-  color: #fff;
+  color: rgb(255, 0, 0);
 }
 .gantt_btn_set.gantt_delete_btn_set {
   text-shadow: 0 -1px 0 #6F6F6F;
@@ -663,7 +663,7 @@ div.dhx_modal_cover {
 .gantt_task_progress {
   text-align: center;
   z-index: 0;
-  background: #5aa0d3;  /* Color del proceso */
+  background: #299cb4; /* Color del proceso */
 }
 .gantt_task_progress_wrapper {
   border-radius: inherit;
