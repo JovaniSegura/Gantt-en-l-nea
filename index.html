@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Gantt Online</title>
+  <title></title>
   <meta property="og:site_name" content="Gantt Online">
   <meta property="og:title" content="Gantt Online">
   <meta property="og:url" content="https://carleslc.me/Gantt">
@@ -35,10 +35,14 @@
   <script src="codebase/ext/dhtmlxgantt_multiselect.js"></script>
   <script src="codebase/ext/dhtmlxgantt_marker.js" type="text/javascript" charset="utf-8"></script>
   <link rel="icon"
-    href="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-timeline-product-management-soft-fill-soft-fill-juicy-fish-2.png">
+    href="./icon/icon.ico">
 </head>
 
 <body>
+  <script>
+    var nombre = prompt("Hola, Cual es el nombre del proyecto?");
+    document.title = nombre;
+  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -157,7 +161,7 @@
   <script>
     function supportMe() {
       gantt.alert({
-        text: "If this free tool helps you please consider supporting my work.<div class='container btn-container'><div class='row'><div class='col text-center'><a href='https://ko-fi.com/carleslc' target='_blank'><img height='36' style='border:0px;height:36px;margin: 0 auto;float:none;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=2' border='0' alt='Buy Me a Coffee'/></a></div></div></div><i>Thank you! </i>🥰",
+        text: "Si esta herramienta gratuita te ayuda, considera apoyar mi trabajo..<div class='container btn-container'><div class='row'><div class='col text-center'><a href='https://ko-fi.com/carleslc' target='_blank'><img height='36' style='border:0px;height:36px;margin: 0 auto;float:none;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=2' border='0' alt='Invitame a un café'/></a></div></div></div><i>Muchas gracias! </i>🥰",
         expire: -1 // milliseconds
       });
     }
